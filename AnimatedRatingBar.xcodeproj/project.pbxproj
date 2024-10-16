@@ -14,6 +14,7 @@
 		493AB0AD2CC02B35008ABA00 /* AnimatedRatingBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0AC2CC02B35008ABA00 /* AnimatedRatingBarTests.swift */; };
 		493AB0B72CC02B35008ABA00 /* AnimatedRatingBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0B62CC02B35008ABA00 /* AnimatedRatingBarUITests.swift */; };
 		493AB0B92CC02B35008ABA00 /* AnimatedRatingBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0B82CC02B35008ABA00 /* AnimatedRatingBarUITestsLaunchTests.swift */; };
+		493AB0C72CC02B5B008ABA00 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AB0C62CC02B5B008ABA00 /* Rating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		493AB0B22CC02B35008ABA00 /* AnimatedRatingBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedRatingBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493AB0B62CC02B35008ABA00 /* AnimatedRatingBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRatingBarUITests.swift; sourceTree = "<group>"; };
 		493AB0B82CC02B35008ABA00 /* AnimatedRatingBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedRatingBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		493AB0C62CC02B5B008ABA00 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		493AB08F2CC02B34008ABA00 = {
 			isa = PBXGroup;
 			children = (
+				493AB0C52CC02B4E008ABA00 /* View */,
 				493AB09A2CC02B34008ABA00 /* AnimatedRatingBar */,
 				493AB0AB2CC02B35008ABA00 /* AnimatedRatingBarTests */,
 				493AB0B52CC02B35008ABA00 /* AnimatedRatingBarUITests */,
@@ -125,6 +128,14 @@
 				493AB0B82CC02B35008ABA00 /* AnimatedRatingBarUITestsLaunchTests.swift */,
 			);
 			path = AnimatedRatingBarUITests;
+			sourceTree = "<group>";
+		};
+		493AB0C52CC02B4E008ABA00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				493AB0C62CC02B5B008ABA00 /* Rating.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493AB0C72CC02B5B008ABA00 /* Rating.swift in Sources */,
 				493AB09E2CC02B34008ABA00 /* ContentView.swift in Sources */,
 				493AB09C2CC02B34008ABA00 /* AnimatedRatingBarApp.swift in Sources */,
 			);
